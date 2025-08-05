@@ -1,0 +1,161 @@
+# 📘 Product Requirements Document (PRD)
+
+**Project:** Manpower Security – Portfolio Website  
+**Date:** August 6, 2025  
+**Author:** Mohamed Elsayed  
+**Version:** 1.1
+
+---
+
+## 1. Overview
+
+**Purpose:**  
+To develop a bilingual (English/Arabic) portfolio website for **Manpower Security**, a fully established security guarding company. The site will serve as a digital company profile to showcase professionalism, services, clients, and recruitment opportunities — modeled after G4S, but tailored to Manpower's brand identity.
+
+**Primary Goal:**  
+Represent **Manpower Security** as a leading, credible, and professional security provider in Egypt by showcasing services, company history, clients, and career opportunities.
+
+---
+
+## 2. Business Context
+
+**What we have:**
+- Logo and color palette
+- Brand assets (images, uniforms, materials, etc.)
+- Clients’ logos
+- Work history and operational background  
+> All brand content will be provided in the GitHub repository
+
+**What we want:**
+- A clean, professional bilingual site
+- WhatsApp chatbot integration for client contact
+- A recruitment portal for careers
+- Public client logos
+- No blog, no brochure downloads, no testimonials, no map
+
+---
+
+## 3. Target Audience
+
+- Potential clients (corporate, commercial, industrial, events)
+- HR and procurement teams
+- Job seekers in the security field
+- Partners and vendors
+
+---
+
+## 4. Core Features
+
+### A. Homepage
+- Hero banner with key messaging and image
+- Company mission statement
+- Links to main sections (Services, About, Careers, Contact)
+
+### B. Who We Are
+- Company overview, history, and values
+- Security certifications or licenses (if any)
+- Operational footprint (e.g. areas served)
+
+### C. Our Services
+Static section describing core services:
+- Manned Guarding
+- Mobile Patrol & Response
+- Alarm Monitoring & Key Holding
+- Event Security
+- Risk Assessment
+
+Each service includes:
+- Icon or image
+- Title + short description
+
+### D. Our Clients
+- Grid or carousel display of **client logos** (provided in repo)
+
+### E. Careers / Recruitment
+- Overview of job opportunities
+- Recruitment process (brief explanation)
+- "Apply Now" call to action → leads to WhatsApp chatbot
+
+### F. Contact Us
+- **WhatsApp chatbot integration only**
+- “Chat With Us” button (floating or in page)
+
+### G. Header/Footer
+- Logo + Nav: Home, About, Services, Clients, Careers, Contact
+- Language switcher (EN/AR)
+- Footer with copyright
+
+---
+
+## 5. Technical Requirements
+
+### Language & Accessibility
+- Bilingual: English + Arabic
+- Right-to-left (RTL) support for Arabic
+- Accessible fonts
+
+### Stack Recommendations
+- **Frontend:** React + TailwindCSS (or similar)
+- **Backend/CMS:** Static or headless (if needed)
+- **Hosting:** Netlify, Vercel, or similar
+- **WhatsApp Chatbot:** Integrated via WhatsApp Business API or third-party tools
+
+### Performance & Security
+- Fast loading (under 2 seconds)
+- Mobile-first responsive design
+- HTTPS enabled
+- Basic security headers
+- Google Analytics (optional)
+
+---
+
+## 6. Content & Assets
+
+To be included in the GitHub repository:
+- Logo and brand guidelines
+- Color codes
+- Images and visuals
+- Service descriptions
+- Clients’ logos
+- Team/career information
+- Company story and background
+
+---
+
+## 7. Pages Overview
+
+| Page         | Route        | Features                              |
+|--------------|--------------|---------------------------------------|
+| Home         | `/`          | Hero + intro + quick links            |
+| Who We Are   | `/about`     | Company history, mission              |
+| Services     | `/services`  | 5 service offerings                   |
+| Clients      | `/clients`   | Logos only                            |
+| Careers      | `/careers`   | Recruitment info + WhatsApp link      |
+| Contact      | `/contact`   | WhatsApp chatbot only                 |
+
+---
+
+## 8. Excluded Features
+
+- No blog or news section  
+- No location map  
+- No testimonial quotes  
+- No downloadable PDFs  
+- No contact forms or email integration  
+- No CRM integration
+
+---
+
+## 9. Design Guidelines
+
+**Colors & Fonts:** Based on provided brand identity (see GitHub repo)  
+**Visual Style:**  
+- Clean, professional, minimal  
+- Image-focused, authentic branding  
+- Modern, mobile-friendly layout  
+
+**Language Handling:**  
+- Toggle or switcher at top right  
+- Automatic RTL for Arabic pages
+
+---
